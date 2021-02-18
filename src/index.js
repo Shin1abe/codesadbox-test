@@ -39,3 +39,4 @@ const func4 = (num1, num2) => {
 };
 //const func4 = (num1, num2)　=> num1+num2
 console.log(func4(2.5, 3));
+
