@@ -135,3 +135,35 @@
 // const num = "1300";
 // console.log(typeof num === 'number' ? num.toLocaleString() : "数値を入力してください");
 
+// const checkSum = (num1, num2) => {
+//     return num1 + num2 > 100 ? '100を超えました!' : '教養範囲内です。'
+// }
+// console.log(checkSum(99 , 0));
+
+/**
+ * 論理演算子の本当の意味を知ろう   && ||
+ */
+// 一般
+//  const flg1 = true;
+// const flg2 = true;
+
+// if (flg1 || flg2){
+//     console.log("flg1　または　flg2がtrueです。");
+// }
+
+// if (flg1 && flg2){
+//     console.log("flg1,　flg2がtrueです。");
+// }
+
+// 意味わかる？
+// ⇒ "||" は左側がfalseとなるときは右側を返すということ
+// //const num = null;
+// const num = 100;
+// const fee = num || "金額未設定";
+// console.log(fee);
+
+// ⇒ "&&" は左側がtrueとなるときは右側を返すということ
+const num2 = null;
+const fee2 = num2 && "何か設定されました";
+console.log(fee2);
+
